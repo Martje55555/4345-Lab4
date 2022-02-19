@@ -23,6 +23,11 @@
 <img width="455" alt="image" src="https://user-images.githubusercontent.com/71607977/154789836-376f7f29-ed0e-4c6b-aed8-9e904ae73503.png">
 <img width="252" alt="image" src="https://user-images.githubusercontent.com/71607977/154789947-803dfded-544d-4f86-b537-8d0969f6b201.png">
 
+* You are now ready to start chatting! 
+You may open the file in multiple tabs and browsers to test the socket connections. (see images below)
+
+
+
 
 
 
