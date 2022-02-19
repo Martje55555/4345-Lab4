@@ -1,4 +1,3 @@
-//require('dotenv').config();
 const portFinder = require('portfinder');
 const config = require('../config/default.json');
 
@@ -6,20 +5,23 @@ const config = require('../config/default.json');
 portFinder.basePort = 1024;
 portFinder.highestPort = 65535;
 
-
-getPortNum = async () => {
+const getPortNum = async () => {
+    let p = 0;
     await portFinder.getPortPromise()
-    .then((port) => {
-        config.app.PORT = port;
-    })
-    .catch((err) => {
-        console.log(err);
-    });
-    return config.app.PORT;
+        .then((port) => {
+            config.app.PORT = port;
+            p = port;
+        })
+        .catch((err) => {
+            console.log(err);
+        });
+    if(p != 0) {
+        console.log(p);
+        return p;
+    }
+    else {
+        getPortNum()
+    }
 }
 
-const p = getPortNum();
-
-p.then((result) => {
-    config.app.PORT = result;
-});
+module.exports = { getPortNum };
