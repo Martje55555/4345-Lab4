@@ -12,6 +12,7 @@ const wss = new WebSocket.Server({ port: 1024 })
 //console.log(wss);
 wss.on('connection', (ws) => {
     ws.send('Welcome!');
+    console.log('New User Connected!')
     ws.on('message', (data) => {
         wss.clients.forEach((client) => {
             if (client.readyState === WebSocket.OPEN) {

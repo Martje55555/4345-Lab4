@@ -1,6 +1,6 @@
 //require('dotenv').config();
 const portFinder = require('portfinder');
-const config = require('./config/default.json');
+const config = require('../config/default.json');
 
 // Ephemeral Port is defined to be from range 1024–65535.
 portFinder.basePort = 1024;
