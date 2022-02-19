@@ -26,6 +26,17 @@
 * You are now ready to start chatting! 
 You may open the file in multiple tabs and browsers to test the socket connections. (see images below)
 
+# EXAMPLES
+<img width="1504" alt="image" src="https://user-images.githubusercontent.com/71607977/154790122-1eb406c5-d82f-45ab-9ca6-69bd125d1704.png">
+
+<img width="1504" alt="image" src="https://user-images.githubusercontent.com/71607977/154790147-8cbf91e1-2c94-4b97-b1b6-6589893d0605.png">
+
+<img width="1504" alt="image" src="https://user-images.githubusercontent.com/71607977/154790176-15ed4673-ff4d-4b90-bf00-e1b75699c8e7.png">
+
+<img width="1504" alt="image" src="https://user-images.githubusercontent.com/71607977/154790265-373ec0ca-51c6-4026-bfa8-466b290287f3.png">
+
+
+
 
 
 
