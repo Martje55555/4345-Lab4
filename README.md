@@ -18,6 +18,9 @@
 
 * The server is now running and listening for a connection.
 
-* To connect the client to the server, make sure to open the html file `client.html` in your web-browser of choice. (Make sure you open the file by specifying the file location like below.)
+* To connect the client to the server, make sure to open the html file `client.html` in your web-browser of choice. (Make sure you open the file by specifying the file location like below.) Once Succesfully connected, Welcome! should appear on the client side, and New User Connected! should appear in the terminal of the server side.
+
+<img width="835" alt="image" src="https://user-images.githubusercontent.com/71607977/154789836-376f7f29-ed0e-4c6b-aed8-9e904ae73503.png">
+
 
 
